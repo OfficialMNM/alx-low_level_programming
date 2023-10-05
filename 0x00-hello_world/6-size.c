@@ -1,3 +1,12 @@
+D
+B
+B
+B
+A
+A
+B
+i
+B
 include <stdio.h>
 /**
   * main - prints the sizes of various types
