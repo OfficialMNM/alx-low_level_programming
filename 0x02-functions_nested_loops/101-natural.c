@@ -2,7 +2,7 @@
 /**
  * main- checks for multiples of 3 and 5
  * below 1024 and finds their sum
- * returns: 0 on successful execution
+ * Return: 0 on successful execution
  */
 
 int main(void)
