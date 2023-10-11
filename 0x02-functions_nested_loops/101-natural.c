@@ -1,17 +1,20 @@
 #include<stdio.h>
+/* main- checks for multiples of 3 and 5
+ * returns 0 on success
+ */
 
-int main() {
-    int sum = 0;
-    for (int i = 1; i < 1024; i++)
+int main(void)
+{
+    int b, c;
+    for (b = 1; b < 1024; b++)
     {
-        if ((i % 3 == 0) || (i % 5 == 0))
+        if ((b % 3 == 0) || (b % 5 == 0))
         {
-            sum += i;
-            printf("%d\n", i);
+            c += b;
         }
         
     }
-    printf("The sum is:%d\n", sum);
-    return 0;
+    printf("%d\n", c);
+    return (0);
     
 }
